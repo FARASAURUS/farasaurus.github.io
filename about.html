@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>About | Faras Raditia Maulana</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-container">
+      <h1 class="logo"><a href="index.html">FARASAURUS<span>.</span></a></h1>
+      <nav>
+        <button class="hamburger" id="hamburger">&#9776;</button>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="skills.html">Skills</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>  
+
+  <section class="section about-content">
+    <div class="container">
+      <h2>About Me</h2>
+      <p>Hi! I’m Faras Raditia Maulana, a frontend developer based in Indonesia. I’m passionate about building interactive, user-friendly web applications using modern technologies and clean design principles.</p>
+    </div>
+  </section>
+
+  <section class="section-box education">
+    <div class="container">
+      <h3>🎓 Education</h3>
+        <p><strong>Undergraduate Student — Computer Science</strong> — Universitas Negeri Lampung</p>
+        <p>Specialization: Web Development & UI/UX Design</p>
+    </div>
+  </section>
+
+  <section class="section-box experience">
+    <div class="container">
+      <h3>💼 Experience</h3>
+        <p><strong>Actively involved in HIMAKOM</strong> , the Computer Science student association, under the External Affairs Department. I served as the Secretary Coordinator for the Mobile Legends Division, handling official documentation, managing team schedules, and facilitating communication with external partners and participants for inter-university esports events. This experience strengthened my abilities in coordination, documentation, and cross-team collaboration.</p>
+    </div>
+  </section>
+
+  <section class="section-box hobbies">
+    <div class="container">
+      <h3>💡 Interests & Hobbies</h3>
+      <ul>
+        <li>Coding side projects and learning new frontend frameworks</li>
+        <li>Designing clean interfaces with Figma</li>
+        <li>Listening to lo-fi music and reading design blogs</li>
+        <li>Playing open-world games on weekends</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section-box contact-info">
+    <div class="container">
+      <h3>🔗 Connect With Me</h3>
+      <p>You can find me on 
+        <a href="https://github.com/FARASAURUS" target="_blank">GitHub</a>, 
+        <a href="https://linkedin.com/in/faras-raditia-3a44622b6" target="_blank">LinkedIn</a>, and 
+        <a href="https://instagram.com/farasrdtyy" target="_blank">Instagram</a>.
+      </p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 My Portfolio. All rights reserved.</p>
+      <div class="social-links">
+        <a href="https://github.com/FARASAURUS" target="_blank">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" />
+        </a>
+        <a href="https://instagram.com/farasrdtyy" target="_blank">
+          <img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="Instagram" />
+        </a>
+        <a href="https://www.linkedin.com/in/faras-raditia-3a44622b6" target="_blank">
+          <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" />
+        </a>
+      </div>
+    </div>
+  </footer>
+  <script>
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.querySelector('.nav-links');
+  
+    hamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Projects | Faras Raditia Maulana</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-container">
+      <h1 class="logo"><a href="index.html">FARASAURUS<span>.</span></a></h1>
+      <nav>
+        <button class="hamburger" id="hamburger">&#9776;</button>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="skills.html">Skills</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>  
+
+  <section class="section">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="project-grid">
+        <div class="project-card">
+          <img src="flappybird.png" alt="Project 1" class="project-image" />
+          <h3>Flappy Bird in C++</h3>
+          <p>Selama menempuh mata kuliah Dasar-Dasar Pemrograman, saya berhasil mengembangkan sebuah game sederhana berbasis C++ yang terinspirasi dari Flappy Bird. Project ini merupakan implementasi dari pemahaman saya mengenai konsep-konsep fundamental pemrograman, seperti: Struktur Data, Kontrol Alur Program, Manajemen Input/Output, Dasar Game Logic.</p>
+        </div>
+        <div class="project-card">
+          <img src="game.png" alt="Project 2" class="project-image" />
+          <h3>Pahlawan Padang Pasir</h3>
+          <p>Dalam mata kuliah Pemrograman Berorientasi Objek, saya membuat game Pahlawan Padang Pasir menggunakan JavaFX untuk menerapkan konsep OOP seperti enkapsulasi, inheritance, dan polimorfisme. Game ini menampilkan perjalanan seorang pahlawan di gurun pasir dengan mekanisme pergerakan, serangan, dan penyimpanan progres menggunakan file handling. Saya menggunakan FXML untuk desain UI dan mengembangkan logika permainan dengan Java. Proyek ini melatih kemampuan saya dalam merancang kode terstruktur dan mengelola dependencies.</p>
+        </div>
+        <div class="project-card">
+          <img src="rpl.png" alt="Project 3" class="project-image" />
+          <h3>Kingz Barbershop</h3>
+          <p>Dalam menyelesaikan tugas akhir mata kuliah Rekayasa Perangkat Lunak, saya bersama lima anggota tim lainnya mengembangkan desain UI/UX aplikasi barbershop menggunakan Figma dengan pendekatan Agile Scrum. Proyek ini bertujuan untuk menciptakan solusi digital yang meningkatkan pengalaman pelanggan dalam memesan layanan potong rambut secara online, sekaligus menerapkan prinsip-prinsip rekayasa perangkat lunak mulai dari analisis kebutuhan hingga evaluasi produk.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 My Portfolio. All rights reserved.</p>
+      <div class="social-links">
+        <a href="https://github.com/FARASAURUS" target="_blank">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" />
+        </a>
+        <a href="https://instagram.com/farasrdtyy" target="_blank">
+          <img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="Instagram" />
+        </a>
+        <a href="https://www.linkedin.com/in/faras-raditia-3a44622b6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank">
+          <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" />
+        </a>
+      </div>
+    </div>
+  </footer>
+  <script>
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.querySelector('.nav-links');
+  
+    hamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+  </script>
+</body>
+</html>

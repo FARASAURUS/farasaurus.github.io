@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Faras Raditia Maulana</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-container">
+      <h1 class="logo"><a href="index.html">FARASAURUS<span>.</span></a></h1>
+      <nav>
+        <button class="hamburger" id="hamburger">&#9776;</button>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="projects.html">Projects</a></li>
+          <li><a href="skills.html">Skills</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>  
+
+  <section class="section contact-section">
+    <div class="container">
+      <h2>Contact</h2>
+      <p class="contact-subtext">Feel free to drop me a message — I’ll get back to you as soon as I can!</p>
+  
+      <div class="contact-wrapper">
+        <div class="contact-info-card">
+          <p><strong>Email:</strong> <a href="mailto:farasrm12@gmail.com">farasrm12@gmail.com</a></p>
+          <p><strong>WhatsApp:</strong> <a href="https://wa.me/6283177373453" target="_blank">+62 831-7737-3453</a></p>
+          <p><strong>Location:</strong> Jl. Rw. Subur No.46, Enggal, Engal, Kota Bandar Lampung, Lampung 35118</p>
+        </div>
+  
+        <form class="contact-form">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your name" required>
+  
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Your email" required>
+  
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Your message" required></textarea>
+  
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+  
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 My Portfolio. All rights reserved.</p>
+      <div class="social-links">
+        <a href="https://github.com/FARASAURUS" target="_blank">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" />
+        </a>
+        <a href="https://instagram.com/farasrdtyy" target="_blank">
+          <img src="https://cdn-icons-png.flaticon.com/512/174/174855.png" alt="Instagram" />
+        </a>
+        <a href="https://www.linkedin.com/in/faras-raditia-3a44622b6?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank">
+          <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn" />
+        </a>
+      </div>
+    </div>
+  </footer>
+  <script>
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.querySelector('.nav-links');
+  
+    hamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('active');
+    });
+  </script>
+</body>
+</html>
